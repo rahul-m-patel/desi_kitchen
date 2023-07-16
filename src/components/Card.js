@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { useDispatchCart, useCart } from './ContextReducer';
+import { useDispatchCart } from './ContextReducer';
+import { Link } from 'react-router-dom'
+//import { useDispatchCart, useCart} from './ContextReducer';
 export default function Card(props) {
 
   let dispatch = useDispatchCart();
@@ -9,28 +11,28 @@ export default function Card(props) {
   let foodItem = props.foodItem;
   const [qty,setQty] = useState(1)
   const [size,setSize] = useState("")
-  let data = useCart();
+  // let data = useCart();
 
   const handleAddToCart= async ()=>{
-    let food = []
-    for (const item of data) {
-      if (item.id === foodItem._id) {
-        food = item;
-        break;
-      }
-    }
-    if (food !== []) {
-      if (food.size === size) {
-        await dispatch({ type: "UPDATE", id: foodItem._id, price: finalPrice, qty: qty })
-        return
-      }
-      else if (food.size !== size) {
-        await dispatch({ type: "ADD", id: foodItem._id, name: foodItem.name, price: finalPrice, qty: qty, size: size,img: foodItem.img })
-        console.log("Size different so simply ADD one more to the list")
-        return
-      }
-      return
-    }
+    // let food = []
+    // for (const item of data) {
+    //   if (item.id === foodItem._id) {
+    //     food = item;
+    //     break;
+    //   }
+    // }
+    // if (food !== []) {
+    //   if (food.size === size) {
+    //     await dispatch({ type: "UPDATE", id: foodItem._id, price: finalPrice, qty: qty })
+    //     return
+    //   }
+    //   else if (food.size !== size) {
+    //     await dispatch({ type: "ADD", id: foodItem._id, name: foodItem.name, price: finalPrice, qty: qty, size: size,img: foodItem.img })
+    //     console.log("Size different so simply ADD one more to the list")
+    //     return
+    //   }
+    //   return
+    // }
     await dispatch({type: "ADD", id: foodItem._id, name: foodItem.name, price: finalPrice, qty: qty, size: size,img: foodItem.img})
   }
 
@@ -64,7 +66,7 @@ export default function Card(props) {
               <hr></hr>
               {(localStorage.getItem("authToken")) ?
               <button className={'btn btn-warning justify-center ms-2'} onClick={handleAddToCart}>Add to Cart</button>
-              : ""}
+              : <Link className="btn btn-warning justify-center ms-2" to="/login">Login to place order</Link>}
             </div>
 
         </div>

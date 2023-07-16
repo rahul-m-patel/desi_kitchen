@@ -1,7 +1,7 @@
 {
   "name": "desi_kitchen",
   "version": "0.1.0",
-  "homepage": "https://rahul-m-patel.github.io/desi_kitchen",
+  "homepage": "https://rahul-m-patel.github.io/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",

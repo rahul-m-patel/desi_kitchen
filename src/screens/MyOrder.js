@@ -8,9 +8,7 @@ export default function MyOrder() {
 
     const fetchMyOrder = async () => {
         console.log(localStorage.getItem('userEmail'))
-        await fetch("http://localhost:5000/api/myOrderData", {
-            // credentials: 'include',
-            // Origin:"http://localhost:3000/login",
+        await fetch(global.link+"/api/myOrderData", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

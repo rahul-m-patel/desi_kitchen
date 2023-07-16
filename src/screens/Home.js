@@ -3,13 +3,15 @@ import Card from '../components/Card'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
+global.link = "https://1639-2600-4041-41c7-a900-4f0-f110-9069-90f8.ngrok-free.app"
+
 export default function Home() {
   const [search,setSearch] = useState('');
   const [foodCat,setFoodCat] = useState([]);
   const [foodItem,setFoodItem] = useState([]);
 
   const loadData = async()=>{
-    let response = await fetch("http://localhost:5000/api/foodData",{
+    let response = await fetch(global.link+"/api/foodData",{
       method : "POST",
       headers:{
         'Content-Type':'application/json'
