@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/desi_kitchen/static/css/main.c8a84c25.css",
-    "main.js": "/desi_kitchen/static/js/main.f7a2c716.js",
-    "static/js/787.abe1b44c.chunk.js": "/desi_kitchen/static/js/787.abe1b44c.chunk.js",
-    "index.html": "/desi_kitchen/index.html",
-    "main.c8a84c25.css.map": "/desi_kitchen/static/css/main.c8a84c25.css.map",
-    "main.f7a2c716.js.map": "/desi_kitchen/static/js/main.f7a2c716.js.map",
-    "787.abe1b44c.chunk.js.map": "/desi_kitchen/static/js/787.abe1b44c.chunk.js.map"
+    "main.css": "/static/css/main.c8a84c25.css",
+    "main.js": "/static/js/main.f3ccdba1.js",
+    "static/js/787.abe1b44c.chunk.js": "/static/js/787.abe1b44c.chunk.js",
+    "index.html": "/index.html",
+    "main.c8a84c25.css.map": "/static/css/main.c8a84c25.css.map",
+    "main.f3ccdba1.js.map": "/static/js/main.f3ccdba1.js.map",
+    "787.abe1b44c.chunk.js.map": "/static/js/787.abe1b44c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8a84c25.css",
-    "static/js/main.f7a2c716.js"
+    "static/js/main.f3ccdba1.js"
   ]
 }
