@@ -1,3 +1,25 @@
+# App Layout on Desktop
+Before Login:  
+<img width="846" alt="image" src="https://github.com/rahul-m-patel/desi_kitchen/assets/44569635/d9e6c15b-979a-467b-857d-4c37b526a4ab">  
+After Login, you can add items to cart: 
+<img width="839" alt="image" src="https://github.com/rahul-m-patel/desi_kitchen/assets/44569635/961f5579-e52a-4581-8b94-2a393b556192">  
+Added items in the cart:  
+<img width="842" alt="image" src="https://github.com/rahul-m-patel/desi_kitchen/assets/44569635/54790ff5-3b1f-42a7-88ed-52641e22d55d">  
+Items can be deleted, and once order is finalised, after you click on checkout, you can view your order in 'My Order' tab:  
+<img width="839" alt="image" src="https://github.com/rahul-m-patel/desi_kitchen/assets/44569635/d635a227-7a5c-468c-b965-7c57477d3af0">  
+
+
+# App Layout on Mobile
+<img width="160" alt="image" src="https://github.com/rahul-m-patel/desi_kitchen/assets/44569635/545663c3-0a4b-4f4e-a48f-10afb475349d">  
+<img width="175" alt="image" src="https://github.com/rahul-m-patel/desi_kitchen/assets/44569635/3a203f7e-7ee9-474e-90ca-5e359af5ac5c">
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
